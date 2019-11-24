@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/sal.css">
+</head>
+
+<body>
+    <div class="section" id="first">
+        <div>
+            <span class="head">Player 1</span>
+            <label for="curPosPl1" class="info">Current Position: </label>
+            <span id="curPosPl1" class="infospan"></span>
+            <label for="lastRollPl1" class="info">Last roll result: </label>
+            <span id="lastRollPl1" class="infospan"></span>
+            <button class="rollBtn" onclick="play(1)" disabled>Roll Die</button>
+        </div>
+        <div>
+            <span class="head">Player 2</span>
+            <label for="curPosPl2" class="info">Current Position: </label>
+            <span id="curPosPl2" class="infospan"></span>
+            <label for="lastRollPl2" class="info">Last roll result: </label>
+            <span id="lastRollPl2" class="infospan"></span>
+            <button class="rollBtn" onclick="play(2)" disabled>Roll Die</button>
+        </div>
+    </div>
+    <div class="section">
+        <div>
+            <button id="startBtn" onclick="moderator()">Start</button>
+        </div>
+    </div>
+    <div class="section">
+        <textarea name="" id="messageBox" cols="100" rows="10"></textarea>
+    </div>
+    <script src="SaL.js"></script>
+</body>
+
+</html>

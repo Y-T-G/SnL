@@ -1,0 +1,22 @@
+div[class="section"]{
+    display: block;
+    text-align: center;
+}
+
+button{
+    margin:10px auto;
+}
+
+div[id="first"] div{
+    display: inline-block;
+    width: 45%;
+}
+
+div[id="first"] div label, button{
+    display: block;
+}
+
+div[id="first"] div label, span{
+    display: block;
+    margin: 5px;
+}
